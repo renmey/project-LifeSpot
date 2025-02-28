@@ -1,0 +1,69 @@
+﻿
+.navbar, a {
+    padding-left: 15%;
+}
+    .navbar p:hover {
+        color: paleturquoise;
+    }
+
+header {
+    
+    padding-left: 1%;
+    padding-top: 1.2%;
+    padding-bottom: 1%;
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border: 2px solid #2594d7;
+    background-color: #b0d9dc;
+}
+
+
+.video-container {
+    display: inline-block;
+    padding-left: 1%;
+}
+
+footer {
+    padding-left: 1%;
+    position: absolute;
+    bottom: 0;
+    font-size: medium;
+    color: dimgrey;
+    line-height: 66%
+}
+
+aside {
+    height: 100%; /* Высота в полный размер. Этот параметр можно убрать, если вы хотите выставлять высоту автоматически */
+    width: 10%;
+    position: absolute; /* Фиксированная позиция сайд-бара. Так он будет оставаться на месте при скроллинге */
+    z-index: 1; /* Сайд-бар будет поверх остальных элементов */
+    top: 0; /* Сайдбар будет в самой верхней части страницы */
+    left: 0;
+    background-color: #222020;
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+    padding-top: 2%;
+    font-size: large;
+}
+
+#sidebar, a{
+    color: #7e92a8
+}
+
+body {
+
+    padding-left: 11%;
+}
+.bordered, .footer, body{
+    background-color : linen
+}
+
+header, footer, aside, body, .navbar, .video-container {
+    font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+
+
+
+ 
